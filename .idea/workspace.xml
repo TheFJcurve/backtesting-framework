@@ -5,8 +5,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bb6c5334-20b6-4680-97ef-a4df334eda6b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../algorithmic-trading/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../algorithmic-trading/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../algorithmic-trading/uwqsc_algorithmic_trading/tests/algorithms/hidden_markov_model_impl_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../algorithmic-trading/uwqsc_algorithmic_trading/tests/algorithms/hidden_markov_model_impl_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/uwqsc_backtesting_framework/interfaces/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/app/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/app/globals.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/app/layout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/app/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/eslint.config.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/next.config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/postcss.config.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/file.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/globe.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/next.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/vercel.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/window.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/sample_data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/backend/data/sample_data.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/backend/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup.sh" beforeDir="false" afterPath="$PROJECT_DIR$/setup.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sma_algorithm.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/sma_algorithm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/streamlit_algo_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/streamlit_algo_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uwqsc_backtesting_framework/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uwqsc_backtesting_framework/conv_to_parquet.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/uwqsc_backtesting_framework/conv_to_parquet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uwqsc_backtesting_framework/interfaces/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/uwqsc_backtesting_framework/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uwqsc_backtesting_framework/interfaces/backtesting_framework_interface.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/uwqsc_backtesting_framework/interfaces/backtesting_framework_interface.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,22 +73,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;topic/6&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/sargunsinghbhatti/Documents/Documents - Sargun’s MacBook Air/GitHub/UWQSC/backtesting-framework&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/sargunsinghbhatti/Documents/Documents - Sargun’s MacBook Air/GitHub/UWQSC/backtesting-framework",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/backend" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
