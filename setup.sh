@@ -17,3 +17,7 @@ pip install --upgrade pip
 pip install -r requirements.txt
 
 cd "$currentDir"
+
+# Git hooks setup 
+scp bin/commit-msg.sh .git/hooks/commit-msg
+chmod +x .git/hooks/commit-msg

@@ -1,0 +1,35 @@
+# This workflow will install Python dependencies, run tests for a single version of Python (3.9)
+
+name: Python application
+
+on:
+  push:
+    branches:
+      - "**"
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python 3.9
+        uses: actions/setup-python@v3
+        with:
+          python-version: "3.9"
+      - name: Install dependencies
+        run: |
+          cd backend
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          cd ..
+      - name: Test
+        run: |
+          python -m unittest discover backend/uwqsc_backtesting_framework/tests -p '*_test.py'
+      - name: View Coverage
+        run: |
+          coverage run --source=backend/uwqsc_backtesting_framework/src -m unittest discover backend/uwqsc_backtesting_framework/tests -p '*_test.py'
+          coverage report -m
